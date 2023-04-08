@@ -26,14 +26,12 @@ body {
   z-index: -1;
 }
 .left {
-  /* border: 1px solid red; */
   display: inline-block;
   top: 5px;
   position: absolute;
   left: 30px;
 }
 .mid {
-  /* border: 1px solid red; */
   display: block;
   margin: 18px auto;
   width: 60%;
@@ -53,7 +51,6 @@ body {
 }
 .navbar li a {
   text-transform: uppercase;
-
   position: relative;
   z-index: 1;
   text-decoration: none;
@@ -95,16 +92,18 @@ body {
   height: 100%;
 }
 
-.left img {
-  width: 100px;
+.left>i {
+  position: absolute;
+  color: #ff3131;
+  font-size: 4.5rem;
+  top: 32px;
 }
 .left div {
   color: #ff3131;
-  text-align: center;
   position: relative;
-  line-height: 0;
+  top: 60px;
+  left: -14px;
   letter-spacing: 0.05rem;
-  bottom: 15px;
   font-size: 18px;
 }
 .btn {
